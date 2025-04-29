@@ -1,0 +1,31 @@
+body{
+  background-color: #121212 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+:root{
+  --primary: #E0E0E0;
+  --Secondary:#B0B0B0 ;
+  --Borders:#444444;
+  --card:#888888;
+
+}
+
+.time{
+  background-color: var(--Borders);
+  height: 100px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 16px;
+}
+
+h1{
+  color: var(--primary);
+}
+
